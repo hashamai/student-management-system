@@ -1,0 +1,78 @@
+{
+  "courses": [
+    {"code": "CS101", "title": "Programming Fundamentals", "credit_hours": 4},
+    {"code": "MA101", "title": "Calculus and Analytical Geometry", "credit_hours": 3},
+    {"code": "EN101", "title": "English Composition", "credit_hours": 2},
+    {"code": "PH101", "title": "Applied Physics", "credit_hours": 3},
+    {"code": "CS102", "title": "Object Oriented Programming", "credit_hours": 4},
+    {"code": "MA102", "title": "Linear Algebra", "credit_hours": 3},
+    {"code": "CS201", "title": "Data Structures and Algorithms", "credit_hours": 4},
+    {"code": "CS202", "title": "Database Systems", "credit_hours": 3},
+    {"code": "SE201", "title": "Software Engineering", "credit_hours": 3},
+    {"code": "AI201", "title": "Introduction to Artificial Intelligence", "credit_hours": 3}
+  ],
+  "students": [
+    {"roll_no": "CS-001", "name": "Ali Khan", "program": "BSCS", "enrollments": [
+      {"code": "CS101", "semester": 1, "marks": 88},
+      {"code": "MA101", "semester": 1, "marks": 76},
+      {"code": "EN101", "semester": 1, "marks": 81},
+      {"code": "PH101", "semester": 1, "marks": 69},
+      {"code": "CS102", "semester": 2, "marks": 91},
+      {"code": "MA102", "semester": 2, "marks": 72},
+      {"code": "CS201", "semester": 2, "marks": 84}
+    ]},
+    {"roll_no": "CS-002", "name": "Sara Ahmed", "program": "BSCS", "enrollments": [
+      {"code": "CS101", "semester": 1, "marks": 95},
+      {"code": "MA101", "semester": 1, "marks": 89},
+      {"code": "EN101", "semester": 1, "marks": 78},
+      {"code": "PH101", "semester": 1, "marks": 86},
+      {"code": "CS102", "semester": 2, "marks": 87},
+      {"code": "MA102", "semester": 2, "marks": 92},
+      {"code": "CS201", "semester": 2, "marks": 90},
+      {"code": "CS202", "semester": 3, "marks": 83},
+      {"code": "AI201", "semester": 3, "marks": null}
+    ]},
+    {"roll_no": "CS-003", "name": "Bilal Hussain", "program": "BSCS", "enrollments": [
+      {"code": "CS101", "semester": 1, "marks": 45},
+      {"code": "MA101", "semester": 1, "marks": 52},
+      {"code": "EN101", "semester": 1, "marks": 67},
+      {"code": "PH101", "semester": 1, "marks": 50},
+      {"code": "CS102", "semester": 2, "marks": 56},
+      {"code": "MA102", "semester": 2, "marks": 61},
+      {"code": "CS201", "semester": 2, "marks": null}
+    ]},
+    {"roll_no": "SE-001", "name": "Hamza Raza", "program": "BSSE", "enrollments": [
+      {"code": "CS101", "semester": 1, "marks": 62},
+      {"code": "MA101", "semester": 1, "marks": 48},
+      {"code": "EN101", "semester": 1, "marks": 70},
+      {"code": "PH101", "semester": 1, "marks": 55},
+      {"code": "CS102", "semester": 2, "marks": 58},
+      {"code": "MA102", "semester": 2, "marks": 51},
+      {"code": "SE201", "semester": 2, "marks": 66}
+    ]},
+    {"roll_no": "SE-002", "name": "Ayesha Malik", "program": "BSSE", "enrollments": [
+      {"code": "CS101", "semester": 1, "marks": 79},
+      {"code": "MA101", "semester": 1, "marks": 83},
+      {"code": "EN101", "semester": 1, "marks": 90},
+      {"code": "PH101", "semester": 1, "marks": 74},
+      {"code": "CS102", "semester": 2, "marks": 85},
+      {"code": "MA102", "semester": 2, "marks": 77},
+      {"code": "SE201", "semester": 2, "marks": 88}
+    ]},
+    {"roll_no": "AI-001", "name": "Usman Tariq", "program": "BSAI", "enrollments": [
+      {"code": "CS101", "semester": 1, "marks": 71},
+      {"code": "MA101", "semester": 1, "marks": 65},
+      {"code": "EN101", "semester": 1, "marks": 60},
+      {"code": "PH101", "semester": 1, "marks": 80},
+      {"code": "CS102", "semester": 2, "marks": 68},
+      {"code": "MA102", "semester": 2, "marks": 74},
+      {"code": "AI201", "semester": 2, "marks": 82}
+    ]},
+    {"roll_no": "AI-002", "name": "Fatima Noor", "program": "BSAI", "enrollments": [
+      {"code": "CS101", "semester": 1, "marks": 84},
+      {"code": "MA101", "semester": 1, "marks": 91},
+      {"code": "EN101", "semester": 1, "marks": 86},
+      {"code": "PH101", "semester": 1, "marks": 77}
+    ]}
+  ]
+}
